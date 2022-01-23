@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Nombre: Jesus Ramses Valenzuela Almada 
+ID: 00000216773
+Fecha: 21/11/2021
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css\style.css" rel="stylesheet">
+                <!--
+        Metodo para llamar las diferentes funciones de la clase de js de calculadora.
+        -->
+        <script type="text/javascript" src="Calculadora.js">
+        </script>
+    </head>
+    <body class="cuerpo">
+        <table class="calculadora">
+                <tr>
+                    <td><input type="number" name="num1" id="numero1"
+                               placeholder="Ingrese el 1er numero"></td>
+                    <td><button id="suma" onclick="suma();">+</button></td>
+                    <td><button id="resta" onclick="restar();">-</button></td>
+                </tr>
+                <tr>
+                    <td><input type="number" name="num2" id="numero2"
+                               placeholder="Ingrese el 2do numero"></td>
+                    <td><button id="multi" onclick="multipli();">*</button></td>
+                    <td><button id="division" onclick="division();">/</button></td>
+
+                </tr>
+                <tr>
+                    <td><input type="number" name="num3" id="resultado"
+                               disabled></td>
+                    <td><button id="igual" onclick="igual();">=</button></td>
+                    <td><button id="reset" onclick="reset();">Res</button></td>
+                </tr>
+            </table>
+    </body>
+</html>

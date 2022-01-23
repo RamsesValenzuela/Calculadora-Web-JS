@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+Nombre: Jesus Ramses Valenzuela Almada 
+ID: 00000216773
+Fecha: 21/11/2021
+*/
+
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: coral;
+    width: 650px;
+    height: 300px;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -300px;
+}
+
+.calculadora td button{
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    background-color: red;
+}
+
+.calculadora td input{
+    display: block;
+    width: 420px;
+    height: 80px;
+    font-size: 40px;
+}
+
+.calculadora td label{
+    display: block;
+    width: 420px;
+    height: 80px;
+    font-size: 40px;
+    border-color: white;
+    background-color: white;
+}
+
+.cuerpo{
+    background-color: blueviolet;
+}
